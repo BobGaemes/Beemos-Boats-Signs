@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="beemos_boat_signs"
-version="2.0.1"
+version="2.0.2"
 logoFile="pack.png"
 displayName="Beemo's Boats: Signs"
 displayURL="https://modrinth.com/mod/boat-signs"
