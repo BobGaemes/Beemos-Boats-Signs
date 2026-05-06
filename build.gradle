@@ -3,8 +3,8 @@ plugins {
     id 'net.neoforged.moddev.legacyforge' version '2.0.141'
 }
 
-version = '1.0'
-base.archivesName = "modid"
+version = '2.0.1'
+base.archivesName = "BeemosBoatsSigns"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
