@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "beemos_boat_signs:blocks/washing_platform_seaway_mark_small",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "beemos_boat_signs:washing_platform_seaway_mark_small"
+        }
+      ]
+    }
+  ]
+}

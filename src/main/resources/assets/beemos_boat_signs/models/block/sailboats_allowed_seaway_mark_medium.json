@@ -1,0 +1,8 @@
+{
+  "parent": "beemos_boat_signs:custom/medium_sign",
+  "textures": {
+    "all": "beemos_boat_signs:block/sailboats_allowed",
+    "particle": "beemos_boat_signs:block/sailboats_allowed"
+  },
+  "render_type": "solid"
+}

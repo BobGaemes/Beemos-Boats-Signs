@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "beemos_boat_signs:blocks/refer_to_chart_seaway_mark_small",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "beemos_boat_signs:refer_to_chart_seaway_mark_small"
+        }
+      ]
+    }
+  ]
+}

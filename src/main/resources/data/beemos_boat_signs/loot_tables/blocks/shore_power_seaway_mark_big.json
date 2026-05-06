@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "beemos_boat_signs:blocks/shore_power_seaway_mark_big",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "beemos_boat_signs:shore_power_seaway_mark_big"
+        }
+      ]
+    }
+  ]
+}

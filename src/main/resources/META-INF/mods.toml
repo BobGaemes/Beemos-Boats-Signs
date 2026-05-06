@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="beemos_boat_signs"
+version="2.0.0"
+logoFile="pack.png"
+displayName="Beemo's Boats: Signs"
+displayURL="https://modrinth.com/mod/boat-signs"
+issueTrackerURL="https://github.com/BobGaemes/Boat-Signs/issues"
+credits="ImTheBeemoPlush, Transportstyrelsen"
+authors="ImTheBeemoPlush"
+description='''
+Adds 50+ seaway signs
+Different sized signs
+Writable signs using TRATEX font
+Adds thin and thick sign mounts
+Different sized sign mounts
+
+Tratex font (swedish only): https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/om-vagmarken/teckensnitt/
+Sign designs (swedish only): https://www.transportstyrelsen.se/sv/sjofart/sjotrafik-och-hamnar/farleder-och-hamnar/utmarkning-till-sjoss/Sjovagmarken/
+'''
+
+[[dependencies.beemos_boat_signs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
