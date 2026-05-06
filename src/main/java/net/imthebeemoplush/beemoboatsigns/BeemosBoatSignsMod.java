@@ -43,9 +43,9 @@ public class BeemosBoatSignsMod {
 	public static final Logger LOGGER = LogManager.getLogger(BeemosBoatSignsMod.class);
 	public static final String MODID = "beemos_boat_signs";
 
-	public BeemosBoatSignsMod(FMLJavaModLoadingContext context) {
+	public BeemosBoatSignsMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-		IEventBus bus = context.getModEventBus();
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		BeemosBoatSignsModBlocks.REGISTRY.register(bus);
 		BeemosBoatSignsModBlockEntities.REGISTRY.register(bus);
 		BeemosBoatSignsModItems.REGISTRY.register(bus);

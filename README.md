@@ -5,7 +5,7 @@
 # Beemo's Boats: Signs
 This is a minecraft mod for Forge 1.20.1 that adds many Swedish seaway marks. These can be used for decoration but also with VS2 entites and normal minecraft boats to create a realistic looking fairway in minecraft.
 
-## Features (v2.0.0)
+## Features (v2)
 - **50+ seaway marks** - Allowed, prohibited, warning and more
 - **Multiple sign sizes** - Small, medium and big
 - **Writable signs** - Max speed, height/depth/width restrictions and more
