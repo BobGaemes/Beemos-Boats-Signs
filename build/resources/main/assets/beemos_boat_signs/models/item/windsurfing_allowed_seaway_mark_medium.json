@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "beemos_boat_signs:item/windsurfing_allowed_seaway_mark_medium"
+  }
+}

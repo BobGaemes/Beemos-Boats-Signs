@@ -1,0 +1,8 @@
+{
+  "parent": "beemos_boat_signs:custom/big_sign",
+  "textures": {
+    "all": "beemos_boat_signs:block/boat_washing",
+    "particle": "beemos_boat_signs:block/boat_washing"
+  },
+  "render_type": "solid"
+}

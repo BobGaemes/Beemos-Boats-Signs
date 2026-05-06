@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "beemos_boat_signs:item/water_ski_prohibited_seaway_mark_big"
+  }
+}

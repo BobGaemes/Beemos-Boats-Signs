@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "face=floor,facing=north": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small"
+    },
+    "face=floor,facing=east": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small",
+      "y": 90
+    },
+    "face=floor,facing=south": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small",
+      "y": 270
+    },
+    "face=wall,facing=north": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small",
+      "x": 90
+    },
+    "face=wall,facing=east": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=south": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small",
+      "x": 90,
+      "y": 270
+    },
+    "face=ceiling,facing=north": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=east": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=south": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small",
+      "x": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "beemos_boat_signs:block/leading_line_bottom_seaway_mark_small",
+      "x": 180,
+      "y": 90
+    }
+  }
+}
