@@ -1,8 +1,0 @@
-{
-  "parent": "beemos_boat_signs:custom/liana_sign1",
-  "textures": {
-    "all": "beemos_boat_signs:block/liana",
-    "particle": "beemos_boat_signs:block/liana"
-  },
-  "render_type": "solid"
-}

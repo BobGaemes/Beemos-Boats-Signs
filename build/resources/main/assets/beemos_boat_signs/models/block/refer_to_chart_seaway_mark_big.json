@@ -1,8 +1,0 @@
-{
-  "parent": "beemos_boat_signs:custom/big_half_sign",
-  "textures": {
-    "all": "beemos_boat_signs:block/refer_to_chart",
-    "particle": "beemos_boat_signs:block/refer_to_chart"
-  },
-  "render_type": "solid"
-}

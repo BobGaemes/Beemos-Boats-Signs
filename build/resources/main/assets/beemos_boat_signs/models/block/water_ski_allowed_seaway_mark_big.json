@@ -1,8 +1,0 @@
-{
-  "parent": "beemos_boat_signs:custom/big_sign",
-  "textures": {
-    "all": "beemos_boat_signs:block/water_ski_allowed",
-    "particle": "beemos_boat_signs:block/water_ski_allowed"
-  },
-  "render_type": "solid"
-}

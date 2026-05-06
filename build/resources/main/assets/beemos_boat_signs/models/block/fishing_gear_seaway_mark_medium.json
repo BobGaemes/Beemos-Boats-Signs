@@ -1,8 +1,0 @@
-{
-  "parent": "beemos_boat_signs:custom/medium_sign",
-  "textures": {
-    "all": "beemos_boat_signs:block/fishing_gear",
-    "particle": "beemos_boat_signs:block/fishing_gear"
-  },
-  "render_type": "solid"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "beemos_boat_signs:custom/medium_sign",
-  "textures": {
-    "all": "beemos_boat_signs:block/cable_ferry",
-    "particle": "beemos_boat_signs:block/cable_ferry"
-  },
-  "render_type": "solid"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "beemos_boat_signs:custom/medium_sign",
-  "textures": {
-    "all": "beemos_boat_signs:block/diving_prohibited",
-    "particle": "beemos_boat_signs:block/diving_prohibited"
-  },
-  "render_type": "solid"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "beemos_boat_signs:custom/big_sign",
-  "textures": {
-    "all": "beemos_boat_signs:block/max_speed",
-    "particle": "beemos_boat_signs:block/max_speed"
-  },
-  "render_type": "solid"
-}

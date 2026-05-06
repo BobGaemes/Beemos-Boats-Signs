@@ -1,8 +1,0 @@
-{
-  "parent": "beemos_boat_signs:custom/big_sign",
-  "textures": {
-    "all": "beemos_boat_signs:block/leading_line_bottom",
-    "particle": "beemos_boat_signs:block/leading_line_bottom"
-  },
-  "render_type": "cutout"
-}
