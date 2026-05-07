@@ -96,7 +96,7 @@ public class RestrictedHeightSeawayMarkBigRenderer implements BlockEntityRendere
             font.drawInBatch(Component.literal(whole)
                             .withStyle(Style.EMPTY.withFont(ClientFontHelper.TRATEX_FONT_ID))
                             .getVisualOrderText(), 0, 0, 0x1A171B, false,
-                    poseStack.last().pose(), buffer, Font.DisplayMode.SEE_THROUGH, 0, combinedLight);
+                    poseStack.last().pose(), buffer, Font.DisplayMode.POLYGON_OFFSET, 0, combinedLight);
             poseStack.popPose();
 
             // Draw comma + decimal at smaller scale
@@ -107,7 +107,7 @@ public class RestrictedHeightSeawayMarkBigRenderer implements BlockEntityRendere
             font.drawInBatch(Component.literal("," + decimal)
                             .withStyle(Style.EMPTY.withFont(ClientFontHelper.TRATEX_FONT_ID))
                             .getVisualOrderText(), 0, 0, 0x1A171B, false,
-                    poseStack.last().pose(), buffer, Font.DisplayMode.SEE_THROUGH, 0, combinedLight);
+                    poseStack.last().pose(), buffer, Font.DisplayMode.POLYGON_OFFSET, 0, combinedLight);
             poseStack.popPose();
 
         } else {
@@ -136,7 +136,7 @@ public class RestrictedHeightSeawayMarkBigRenderer implements BlockEntityRendere
                             .withStyle(Style.EMPTY.withFont(ClientFontHelper.TRATEX_FONT_ID))
                             .getVisualOrderText(),
                     0, 0, 0x1A171B, false,
-                    poseStack.last().pose(), buffer, Font.DisplayMode.SEE_THROUGH, 0, combinedLight
+                    poseStack.last().pose(), buffer, Font.DisplayMode.POLYGON_OFFSET, 0, combinedLight
             );
         }
 

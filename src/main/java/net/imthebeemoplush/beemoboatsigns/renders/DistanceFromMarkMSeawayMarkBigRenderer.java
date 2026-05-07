@@ -74,7 +74,7 @@ public class DistanceFromMarkMSeawayMarkBigRenderer implements BlockEntityRender
                         .withStyle(Style.EMPTY.withFont(ClientFontHelper.TRATEX_FONT_ID))
                         .getVisualOrderText(),
                 0, 0, 0x1A171B, false,
-                poseStack.last().pose(), buffer, Font.DisplayMode.SEE_THROUGH, 0, combinedLight
+                poseStack.last().pose(), buffer, Font.DisplayMode.POLYGON_OFFSET, 0, combinedLight
         );
 
         poseStack.translate(10, 0, 0);
@@ -83,7 +83,7 @@ public class DistanceFromMarkMSeawayMarkBigRenderer implements BlockEntityRender
                         .withStyle(Style.EMPTY.withFont(ClientFontHelper.TRATEX_FONT_ID))
                         .getVisualOrderText(),
                 0, 0, 0x1A171B, false,
-                poseStack.last().pose(), buffer, Font.DisplayMode.SEE_THROUGH, 0, combinedLight
+                poseStack.last().pose(), buffer, Font.DisplayMode.POLYGON_OFFSET, 0, combinedLight
         );
 
         poseStack.translate(-10, 9.75, 0);
@@ -98,7 +98,7 @@ public class DistanceFromMarkMSeawayMarkBigRenderer implements BlockEntityRender
                             .withStyle(Style.EMPTY.withFont(ClientFontHelper.TRATEX_FONT_ID))
                             .getVisualOrderText(),
                     0, 0, 0x1A171B, false,
-                    poseStack.last().pose(), buffer, Font.DisplayMode.SEE_THROUGH, 0, combinedLight
+                    poseStack.last().pose(), buffer, Font.DisplayMode.POLYGON_OFFSET, 0, combinedLight
             );
         }
 
@@ -107,7 +107,7 @@ public class DistanceFromMarkMSeawayMarkBigRenderer implements BlockEntityRender
                         .withStyle(Style.EMPTY.withFont(ClientFontHelper.TRATEX_FONT_ID))
                         .getVisualOrderText(),
                 0, 0, 0x1A171B, false,
-                poseStack.last().pose(), buffer, Font.DisplayMode.SEE_THROUGH, 0, combinedLight
+                poseStack.last().pose(), buffer, Font.DisplayMode.POLYGON_OFFSET, 0, combinedLight
         );
 
         poseStack.translate(26.75, 0, 0);
@@ -116,7 +116,7 @@ public class DistanceFromMarkMSeawayMarkBigRenderer implements BlockEntityRender
                         .withStyle(Style.EMPTY.withFont(ClientFontHelper.TRATEX_FONT_ID))
                         .getVisualOrderText(),
                 0, 0, 0x1A171B, false,
-                poseStack.last().pose(), buffer, Font.DisplayMode.SEE_THROUGH, 0, combinedLight
+                poseStack.last().pose(), buffer, Font.DisplayMode.POLYGON_OFFSET, 0, combinedLight
         );
 
         poseStack.popPose();

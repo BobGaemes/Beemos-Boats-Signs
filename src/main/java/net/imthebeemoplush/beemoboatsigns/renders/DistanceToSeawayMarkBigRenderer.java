@@ -115,7 +115,7 @@ public class DistanceToSeawayMarkBigRenderer implements BlockEntityRenderer<Dist
         font.drawInBatch(Component.literal(text)
                         .withStyle(Style.EMPTY.withFont(ClientFontHelper.TRATEX_FONT_ID))
                         .getVisualOrderText(), 0, 0, 0x1A171B, false,
-                poseStack.last().pose(), buffer, Font.DisplayMode.SEE_THROUGH, 0, combinedLight);
+                poseStack.last().pose(), buffer, Font.DisplayMode.POLYGON_OFFSET, 0, combinedLight);
         poseStack.popPose();
 
         // Draw comma + decimal at smaller scale
@@ -126,7 +126,7 @@ public class DistanceToSeawayMarkBigRenderer implements BlockEntityRenderer<Dist
         font.drawInBatch(Component.literal("m")
                         .withStyle(Style.EMPTY.withFont(ClientFontHelper.TRATEX_FONT_ID))
                         .getVisualOrderText(), 0, 0, 0x1A171B, false,
-                poseStack.last().pose(), buffer, Font.DisplayMode.SEE_THROUGH, 0, combinedLight);
+                poseStack.last().pose(), buffer, Font.DisplayMode.POLYGON_OFFSET, 0, combinedLight);
         poseStack.popPose();
 
         poseStack.popPose();
